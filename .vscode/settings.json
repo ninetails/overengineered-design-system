@@ -10,6 +10,7 @@
     ".yarn-offline/": true,
     ".yarnrc.example": true,
     "CODE_OF_CONDUCT.md": true,
+    "CONTRIBUTING.md": true,
     "commitlint.config.js": true,
     "coverage/": true,
     "degit.json": true,
