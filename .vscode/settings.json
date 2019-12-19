@@ -1,0 +1,29 @@
+{
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.*rc": true,
+    "**/.*ignore": true,
+    ".editorconfig": true,
+    ".env*": true,
+    ".prettier*": true,
+    ".vscode/": true,
+    ".yarn-offline/": true,
+    ".yarnrc.example": true,
+    "commitlint.config.js": true,
+    "coverage/": true,
+    "degit.json": true,
+    "lerna.json": true,
+    "LICENSE": true,
+    "yarn.lock": true
+  },
+  "eslint.workingDirectories": [
+    {
+      "directory": ".",
+      "changeProcessCWD": true
+    }
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  }
+}
