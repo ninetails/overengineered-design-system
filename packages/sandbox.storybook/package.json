@@ -1,0 +1,40 @@
+{
+  "name": "@nine-overengineered-design-system/sandbox.storybook",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/sandbox.storybook#readme",
+  "license": "MIT",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@nine-overengineered-design-system/babel-preset-react": "^0.0.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.1.3",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/addon-info": "^5.2.8",
+    "@storybook/addon-knobs": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@types/storybook__addon-info": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "react-refresh": "^0.7.1",
+    "rimraf": "^3.0.0",
+    "source-map-loader": "^0.2.4",
+    "storybook-readme": "^5.0.8",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.41.5"
+  },
+  "scripts": {
+    "build": "build-storybook -c .storybook -o dist",
+    "clean": "rimraf .awcache dist || :",
+    "start": "start-storybook"
+  }
+}

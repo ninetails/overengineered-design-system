@@ -1,0 +1,27 @@
+{
+  "name": "@nine-overengineered-design-system/eslint-config-react",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/eslint-config-react#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-config-standard-with-typescript": "^11.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  }
+}

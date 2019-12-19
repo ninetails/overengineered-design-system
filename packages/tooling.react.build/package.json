@@ -1,0 +1,20 @@
+{
+  "name": "@nine-overengineered-design-system/tooling.react.build",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/tooling.react.build#readme",
+  "license": "MIT",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "bin": {
+    "react-build": "./index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@nine-overengineered-design-system/tooling.helpers": "^0.0.0",
+    "@nine-overengineered-design-system/babel-preset-react": "^0.0.0"
+  }
+}

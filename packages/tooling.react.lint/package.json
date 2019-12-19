@@ -1,0 +1,20 @@
+{
+  "name": "@nine-overengineered-design-system/tooling.react.lint",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/tooling.react.lint#readme",
+  "license": "MIT",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "bin": {
+    "react-lint": "./index.js"
+  },
+  "dependencies": {
+    "@nine-overengineered-design-system/eslint-config-react": "^0.0.0",
+    "@nine-overengineered-design-system/tooling.helpers": "^0.0.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}

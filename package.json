@@ -2,22 +2,41 @@
   "name": "overengineered-design-system",
   "version": "0.0.0",
   "private": true,
-  "repository": "ninetails/overengineered-design-system",
+  "repository": "github:ninetails/overengineered-design-system",
   "license": "MIT",
+  "types": "./typings.d.ts",
   "workspaces": {
     "packages": [
       "packages/*"
     ]
   },
+  "resolutions": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "husky": "^4.0.0-beta.5",
-    "lerna": "^3.19.0",
-    "rimraf": "^3.0.0"
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^4.4.1",
+    "cross-env": "^6.0.3",
+    "husky": "^3.1.0",
+    "lerna": "^3.20.1",
+    "rimraf": "^3.0.0",
+    "update-versions": "^2.3.3"
   },
   "scripts": {
     "clean": "lerna run clean && lerna clean -y && rimraf node_modules || :",
-    "reset": "$npm_execpath run clean && $npm_execpath install"
+    "lint": "lerna run lint --stream --parallel",
+    "reset": "$npm_execpath run clean && $npm_execpath install --emoji --prefer-offline",
+    "storybook": "lerna run --scope @nine-overengineered-design-system/sandbox.storybook",
+    "storybook:build": "$npm_execpath run storybook -- build",
+    "storybook:start": "$npm_execpath run storybook -- start",
+    "test": "lerna run test --stream --parallel",
+    "test:ci": "cross-env CI=true $npm_execpath run test",
+    "type-check": "lerna run type-check --stream --parallel",
+    "upd": "upd"
   }
 }

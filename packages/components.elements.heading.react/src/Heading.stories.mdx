@@ -1,0 +1,19 @@
+import { action } from '@storybook/addon-actions'
+import { Story, Meta, Props } from '@storybook/addon-docs/blocks'
+import Heading from '.'
+
+<Meta title='Components|Heading/MDX' component={Heading} />
+
+# Heading
+
+Testing **MDX** story
+
+<Props of={Heading} />
+
+<Story name="simple">
+  <Heading>This is a simple test</Heading>
+</Story>
+
+<Story name="with description">
+  <Heading description="foo">withInfo</Heading>
+</Story>

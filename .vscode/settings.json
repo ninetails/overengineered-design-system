@@ -1,13 +1,21 @@
 {
+  "npm.packageManager": "yarn",
   "files.exclude": {
     "**/node_modules": true,
     "**/.*rc": true,
     "**/.*ignore": true,
+    "**/.*cache": true,
+    "**/*config.json": true,
+    "**/*storybook/dist": true,
+    "**/components.*/coverage": true,
+    "**/components.*/lib": true,
+    "**/components.*/**/__snapshots__": true,
     ".editorconfig": true,
     ".env*": true,
     ".prettier*": true,
     ".vscode/": true,
     ".yarn-offline/": true,
+    ".yarnclean": true,
     ".yarnrc.example": true,
     "CODE_OF_CONDUCT.md": true,
     "CONTRIBUTING.md": true,
@@ -16,6 +24,7 @@
     "degit.json": true,
     "lerna.json": true,
     "LICENSE": true,
+    "typings.d.ts": true,
     "yarn.lock": true
   },
   "eslint.workingDirectories": [
@@ -27,5 +36,6 @@
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80
-  }
+  },
+  "editor.formatOnSave": true
 }

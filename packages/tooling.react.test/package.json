@@ -1,0 +1,30 @@
+{
+  "name": "@nine-overengineered-design-system/tooling.react.test",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/tooling.react.test#readme",
+  "license": "MIT",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "bin": {
+    "react-test": "./index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@nine-overengineered-design-system/babel-preset-react": "^0.0.0",
+    "@nine-overengineered-design-system/tooling.helpers": "^0.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2",
+    "jest-silent-reporter": "^0.1.2",
+    "jest-styled-components": "^6.3.4",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  }
+}

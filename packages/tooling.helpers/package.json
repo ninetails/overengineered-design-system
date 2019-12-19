@@ -1,0 +1,14 @@
+{
+  "name": "@nine-overengineered-design-system/tooling.helpers",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/tooling.helpers#readme",
+  "license": "MIT",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "mri": "^1.1.4"
+  }
+}

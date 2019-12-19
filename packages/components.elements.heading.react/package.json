@@ -1,0 +1,35 @@
+{
+  "name": "@nine-overengineered-design-system/components.elements.heading.react",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/components.elements.heading.react#readme",
+  "license": "MIT",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {
+    "@nine-overengineered-design-system/tooling.react.build": "^0.0.0",
+    "@nine-overengineered-design-system/tooling.react.lint": "^0.0.0",
+    "@nine-overengineered-design-system/tooling.react.test": "^0.0.0",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "styled-components": "^4.0.0"
+  },
+  "scripts": {
+    "build": "react-build src -d lib",
+    "clean": "rimraf coverage lib/* || :",
+    "coverage": "$npm_execpath run test -- --coverage",
+    "coverage:open": "xdg-open coverage/lcov-report/index.html",
+    "format": "$npm_execpath run lint -- --fix",
+    "lint": "react-lint src",
+    "postinstall": "[ -f 'lib/index.js' ] || $npm_execpath run build",
+    "test": "react-test",
+    "type-check": "tsc --noEmit",
+    "watch": "$npm_execpath run build -- -w"
+  }
+}

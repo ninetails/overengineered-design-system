@@ -12,3 +12,6 @@ bower_components
 
 # misc
 *.map
+
+# typescript
+tsconfig.json

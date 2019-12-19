@@ -1,0 +1,21 @@
+{
+  "name": "@nine-overengineered-design-system/babel-preset-react",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ninetails/overengineered-design-system/packages/babel-preset-react#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:ninetails/overengineered-design-system",
+  "bugs": {
+    "url": "https://github.com/ninetails/overengineered-design-system/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-proposal-pipeline-operator": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.7",
+    "babel-plugin-macros": "^2.8.0"
+  }
+}
